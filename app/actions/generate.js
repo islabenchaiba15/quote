@@ -2,11 +2,11 @@
 
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
-const genAI = new GoogleGenerativeAI(process.env.GOOGLE_API_KEY);
+const genAI = new GoogleGenerativeAI(process.env.NEXT_PUBLIC_GOOGLE_API_KEY);
 
 export async function generateQuote(prompt) {
   try {
-    console.log('API Key in production:', process.env.GOOGLE_API_KEY);
+    console.log('API Key in production:', process.env.NEXT_PUBLIC_GOOGLE_API_KEY);
     const model = genAI.getGenerativeModel({ model: "gemini-pro" });
 
     const result = await model.generateContent(`Generate 4 different inspirational quotes based on this context: ${prompt}. 
