@@ -12,17 +12,17 @@ function HowItWorks() {
         
         <div className="grid md:grid-cols-3 gap-8">
           <UserTypeCard
-            imageSrc="/entrepreneur.avif"
+            imageSrc="/cavva.avif"
             title="For entrepreneurs"
             description="Add inspiring quotes to your promotions to connect with your buyers."
           />
           <UserTypeCard
-            imageSrc="/marketing.avif"
+            imageSrc="/canva2.avif"
             title="For marketing pros"
             description="Easily generate the perfect quote that resonates with every type of audience."
           />
           <UserTypeCard
-            imageSrc="/creator.avif"
+            imageSrc="/canva3.avif"
             title="For content creators"
             description="Create consistent content with quotes that showcase your unique persona."
           />
